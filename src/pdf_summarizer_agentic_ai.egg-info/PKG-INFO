@@ -1,0 +1,26 @@
+Metadata-Version: 2.4
+Name: pdf-summarizer-agentic-ai
+Version: 0.1.0
+Summary: Add your description here
+Home-page: https://github.com/proshanta000/pdf_summarizer_Agentic_Ai
+Author: proshanta000
+Author-email: proshanta.mithu5@gmail.com
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: faiss-cpu>=1.13.1
+Requires-Dist: langchain>=1.2.0
+Requires-Dist: langchain-community>=0.4.1
+Requires-Dist: langchain-core>=1.2.5
+Requires-Dist: langchain-google-genai>=4.1.2
+Requires-Dist: langchain-groq>=1.1.1
+Requires-Dist: langgraph>=1.0.5
+Requires-Dist: langgraph-cli[inmem]>=0.4.11
+Requires-Dist: setuptools>=80.9.0
+Requires-Dist: streamlit>=1.52.2
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: license-file
+
+# pdf_summarizer_Agentic_Ai
