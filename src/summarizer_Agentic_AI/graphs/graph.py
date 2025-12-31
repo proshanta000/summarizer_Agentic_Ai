@@ -1,6 +1,6 @@
 from langgraph.graph import StateGraph, START, END
-from src.pdf_summarizer_Agentic_AI.states.state import AgentState
-from src.pdf_summarizer_Agentic_AI.nodes.node import AgentNodes
+from src.summarizer_Agentic_AI.states.state import AgentState
+from src.summarizer_Agentic_AI.nodes.node import AgentNodes
 
 class GraphBuilder:
     def __init__(self, model):

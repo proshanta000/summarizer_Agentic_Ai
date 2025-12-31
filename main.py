@@ -1,6 +1,6 @@
 import streamlit as st
-from src.pdf_summarizer_Agentic_AI.ui.streamlitui.loadui import LoadStreamlitUI
-from src.pdf_summarizer_Agentic_AI.graphs.graph import GraphBuilder
+from src.summarizer_Agentic_AI.ui.streamlitui.loadui import LoadStreamlitUI
+from src.summarizer_Agentic_AI.graphs.graph import GraphBuilder
 
 class SummarizerApp:
     def __init__(self):

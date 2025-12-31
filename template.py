@@ -6,7 +6,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s')
 
-project_name = "pdf_summarizer_Agentic_AI"
+project_name = "summarizer_Agentic_AI"
 
 list_of_files =[
     ".git/workflows/.gitkeep",

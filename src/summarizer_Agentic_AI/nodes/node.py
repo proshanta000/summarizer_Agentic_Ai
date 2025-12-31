@@ -14,10 +14,10 @@ class AgentNodes:
     def _get_llm_instance(self, state):
         """Internal helper to resolve the model based on user selection."""
         if state['selected_llm'] == "Groq":
-            from src.pdf_summarizer_Agentic_AI.llm.groqllm import GroqModel
+            from src.summarizer_Agentic_AI.llm.groqllm import GroqModel
             return GroqModel(state['api_key'], state['model_name']).get_model()
         else:
-            from src.pdf_summarizer_Agentic_AI.llm.geminillm import GeminiModel
+            from src.summarizer_Agentic_AI.llm.geminillm import GeminiModel
             return GeminiModel(state['api_key'], state['model_name']).get_model()
 
     def data_loader_node(self, state: dict):
@@ -45,7 +45,7 @@ class AgentNodes:
                 Your task is to identify the singular main subject of the text.
                 
                 Rules:
-                - Provide a short title (maximum 4 words).
+                - Provide a short title (maximum 5 words).
                 - Ignore any lists of languages or translations.
                 - Provide the title ONLY in English.
                 - Do not explain yourself.

@@ -1,6 +1,6 @@
 import os
 import streamlit as st
-from src.pdf_summarizer_Agentic_AI.ui.uiconfigfile import Config
+from src.summarizer_Agentic_AI.ui.uiconfigfile import Config
 
 class LoadStreamlitUI:
     def __init__(self):
